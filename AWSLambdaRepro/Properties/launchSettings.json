@@ -11,13 +11,13 @@
     "Aspire_sqs-lambda-function-a": {
       "commandName": "Executable",
       "executablePath": "dotnet",
-      "commandLineArgs": "exec --depsfile ./AWSLambdaRepro.deps.json --runtimeconfig ./AWSLambdaRepro.runtimeconfig.json %USERPROFILE%\\.dotnet\\tools\\.store\\amazon.lambda.testtool\\0.11.0\\amazon.lambda.testtool\\0.11.0\\content\\Amazon.Lambda.RuntimeSupport\\net10.0\\Amazon.Lambda.RuntimeSupport.dll AWSLambdaRepro::AWSLambdaRepro.Handlers.SqsEventHandlerA::HandleAsync",
+      "commandLineArgs": "exec --depsfile ./AWSLambdaRepro.deps.json --runtimeconfig ./AWSLambdaRepro.runtimeconfig.json %USERPROFILE%\\.dotnet\\tools\\.store\\amazon.lambda.testtool\\0.11.0\\amazon.lambda.testtool\\0.11.0\\content\\Amazon.Lambda.RuntimeSupport\\net10.0\\Amazon.Lambda.RuntimeSupport.dll AWSLambdaRepro::AWSLambdaRepro.Handlers.SqsEventHandlerA::InvokeAsync",
       "workingDirectory": ".\\bin\\$(Configuration)\\net10.0"
     },
     "Aspire_sqs-lambda-function-b": {
       "commandName": "Executable",
       "executablePath": "dotnet",
-      "commandLineArgs": "exec --depsfile ./AWSLambdaRepro.deps.json --runtimeconfig ./AWSLambdaRepro.runtimeconfig.json %USERPROFILE%\\.dotnet\\tools\\.store\\amazon.lambda.testtool\\0.11.0\\amazon.lambda.testtool\\0.11.0\\content\\Amazon.Lambda.RuntimeSupport\\net10.0\\Amazon.Lambda.RuntimeSupport.dll AWSLambdaRepro::AWSLambdaRepro.Handlers.SqsEventHandlerB::HandleAsync",
+      "commandLineArgs": "exec --depsfile ./AWSLambdaRepro.deps.json --runtimeconfig ./AWSLambdaRepro.runtimeconfig.json %USERPROFILE%\\.dotnet\\tools\\.store\\amazon.lambda.testtool\\0.11.0\\amazon.lambda.testtool\\0.11.0\\content\\Amazon.Lambda.RuntimeSupport\\net10.0\\Amazon.Lambda.RuntimeSupport.dll AWSLambdaRepro::AWSLambdaRepro.Handlers.SqsEventHandlerB::InvokeAsync",
       "workingDirectory": ".\\bin\\$(Configuration)\\net10.0"
     }
   }

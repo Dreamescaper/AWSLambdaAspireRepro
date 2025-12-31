@@ -8,11 +8,11 @@ var apiService = builder
 var sqsFunctionA = builder
     .AddAWSLambdaFunction<Projects.AWSLambdaRepro>(
         "sqs-lambda-function-a",
-        "AWSLambdaRepro::AWSLambdaRepro.Handlers.SqsEventHandlerA::HandleAsync");
+        "AWSLambdaRepro::AWSLambdaRepro.Handlers.SqsEventHandlerA::InvokeAsync");
 
 var sqsFunctionV = builder
     .AddAWSLambdaFunction<Projects.AWSLambdaRepro>(
         "sqs-lambda-function-b",
-        "AWSLambdaRepro::AWSLambdaRepro.Handlers.SqsEventHandlerB::HandleAsync");
+        "AWSLambdaRepro::AWSLambdaRepro.Handlers.SqsEventHandlerB::InvokeAsync");
 
 builder.Build().Run();
